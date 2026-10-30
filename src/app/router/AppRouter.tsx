@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { PublicLayout } from "../layouts/PublicLayout";
 import { PrivateLayout } from "../layouts/PrivateLayout";
-import { LoginPage } from "../../modules/auth/pages/LoginPage";
-import { UsersPage } from "../../modules/users/pages/UsersPage";
+import { LoginPage } from "../../modules/auth/LoginPage";
+import { UsersPage } from "../../modules/users/UsersPage";
 
 const router = createBrowserRouter([
   {
